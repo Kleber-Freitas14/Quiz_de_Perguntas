@@ -1,0 +1,27 @@
+//
+
+        Questao q11 = new Questao();
+        q11.pergunta = "11 - Durante a locomoção, o movimento é efetuado pelo esforço:";
+        q11.opcaoA = "A) dos ossos sobre os músculos estriados.";
+        q11.opcaoB = "B) de tração dos músculos.";
+        q11.opcaoC = "C) dos ossos sobre as articulações.";
+        q11.opcaoD = "D) dos ligamentos nas articulações.";
+        q11.opcaoE = "E) de tração dos músculos sobre os ossos.";
+        q11.correta = "E";
+
+        q11.escrevaQuestao();
+        resposta = q11.leiaResposta();
+        q11.isCorreta(resposta);
+//
+        Questao q12 = new Questao();
+        q12.pergunta = "12 - Com relação ao funcionamento do corpo humano, assinale a alternativa incorreta:";
+        q12.opcaoA = "A) O hormônio antidiurético, conhecido por ADH, é produzido nas glândulas suprarrenais.";
+        q12.opcaoB = "B) Suco entérico, suco pancreático e bile são secreções que atuam na digestão do quimo no intestino delgado.";
+        q12.opcaoC = "C) O cerebelo coordena os movimentos e orienta a postura corporal.";
+        q12.opcaoD = "D) O infarto, é provocada pela obstrução de uma ou mais artérias coronárias.";
+        q12.opcaoE = "E) O cerebelo coordena os movimentos e orienta a postura corporal.";
+        q12.correta = "A";
+
+        q12.escrevaQuestao();
+        resposta = q12.leiaResposta();
+        q12.isCorreta(resposta);
